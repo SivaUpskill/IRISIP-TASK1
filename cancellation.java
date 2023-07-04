@@ -10,12 +10,12 @@ class CancellationForm {
 
         // Display ticket information based on PNR number
         System.out.println("\nTicket Details for PNR Number: " + pnrNumber);
-        System.out.println("Passenger Name: umesh");
+        System.out.println("Passenger Name: Paluru siva");
         System.out.println("Train Number: 01234");
         System.out.println("Class Type: First Class");
-        System.out.println("Date of Journey: 15-08-2023");
-        System.out.println("Source: kacheguda");
-        System.out.println("Destination: Chennai egmore");
+        System.out.println("Date of Journey: 11-03-2023");
+        System.out.println("Source: Puttur");
+        System.out.println("Destination: Proddatur");
 
         // Prompt user to confirm cancellation
         System.out.print("\nAre you sure you want to cancel this ticket? (Press OK to confirm): ");

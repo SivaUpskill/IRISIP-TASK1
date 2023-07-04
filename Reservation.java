@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class LoginForm {
+class LoginFormcode {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -19,9 +19,7 @@ class LoginForm {
         if (username.equals(validUsername) && password.equals(validPassword)) {
             System.out.println("Login successful!");
             // Add code here to grant access to the main system
-        } else {
-            System.out.println("Invalid username or password. Access denied.");
-        }
+        
 
         // Prompt user for basic details
         System.out.println("Reservation Form");
@@ -68,4 +66,9 @@ class LoginForm {
         System.out.println("Destination: " + destination);
         scanner.close();
     }
+    else {
+            System.out.println("Invalid username or password. Access denied.");
+            
+        }
+}
 }
